@@ -1,6 +1,6 @@
-# Hestia Research Data
+# Isocline Research Data
 
-Raw research data published by [The Hestia Review](https://hestia-media-group.com) alongside each article.
+Raw research data published by [The Isocline Index](https://isocline.ai) alongside each article.
 
 Each folder corresponds to a published article and contains the quantitative data dossier compiled by our research pipeline — STAT_ROW figures, RISK_TABLE assessments, trend projections, patent references, and raw source citations.
 
