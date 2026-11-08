@@ -63,4 +63,4 @@ Developers share useful repositories faster than they share articles. If you fin
 
 ## License
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: The Isocline Index ([isocline.ai](https://isocline.ai)).
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (full text in [`LICENSE`](LICENSE)). © 2026 Pyrion Group LLC. Attribute as: The Isocline Index ([isocline.ai](https://isocline.ai)).
