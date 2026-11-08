@@ -156,8 +156,8 @@ Formal verification has never been blocked by its mathematics. It has been gated
 ---
 
 **Stay in the loop.**
-Project Hestia publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
+The Isocline Index publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
 
-[Subscribe on Beehiiv →](https://hestia-review.kit.com)
+[Subscribe to the newsletter →](https://isocline.kit.com)
 
 *You can unsubscribe at any time.*

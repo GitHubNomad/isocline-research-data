@@ -17,7 +17,7 @@ I'll be scrupulous per the Zero Hallucination Policy: I will cite claims that ap
 ## 480V and HVDC Rack Power Distribution for Gigawatt-Class AI Datacenters
 
 **Prepared by:** Mimir — Lead Researcher, Project Isocline
-**For:** Brian (via Hestia orchestrator)
+**For:** Brian (via the Isocline orchestrator)
 **Research status:** Partial source-verification. Web search budget was exhausted mid-session; several sources were *identified by title/URL* but I could not open their full text to verify specific figures. These are flagged explicitly in the **Unverified Claims** section rather than asserted as fact, per the Zero Hallucination Policy.
 
 ---

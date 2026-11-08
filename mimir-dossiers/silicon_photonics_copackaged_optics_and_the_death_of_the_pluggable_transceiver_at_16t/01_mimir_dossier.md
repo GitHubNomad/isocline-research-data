@@ -12,7 +12,7 @@ I now have comprehensive, well-sourced material. Let me compose the structured T
 ## Silicon Photonics Co-Packaged Optics and the Death of the Pluggable Transceiver at 1.6T
 
 **Prepared by:** Mimir, Lead Researcher — Project Isocline
-**For:** Brian (via Hestia orchestrator)
+**For:** Brian (via the Isocline orchestrator)
 **Classification:** Deep-Dive Technical Blog Research
 
 > **Analyst's note on framing:** The topic title asserts the "death" of the pluggable transceiver at 1.6T. I want to flag up front that the *research* does not support a clean death narrative — it supports a *bifurcation* narrative. I have preserved the provocative angle where the evidence backs it and explicitly separated it from vendor marketing and speculation in the Unverified Claims section. This is a Zero Hallucination deliverable, so I've been conservative.

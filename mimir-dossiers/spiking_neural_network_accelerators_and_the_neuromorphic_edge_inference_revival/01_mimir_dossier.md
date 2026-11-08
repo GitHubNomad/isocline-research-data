@@ -261,4 +261,4 @@ most SNN accelerators are benchmarked on static datasets... considered trivial o
 
 ---
 
-**Research note for Hestia/editorial:** This session's web-search tool hit a hard usage limit partway through research, preventing a planned deeper pass on the patent landscape (BrainChip, IBM NorthPole, memristor synapse IP) and on RFC/standards-track material. The dossier above is fully sourced for all included claims, but Section 3 and the "Unverified Claims" list should be treated as priorities for a supplementary research pass before final publication if patent-landscape depth is a hard requirement for this article.
+**Research note for Isocline editorial:** This session's web-search tool hit a hard usage limit partway through research, preventing a planned deeper pass on the patent landscape (BrainChip, IBM NorthPole, memristor synapse IP) and on RFC/standards-track material. The dossier above is fully sourced for all included claims, but Section 3 and the "Unverified Claims" list should be treated as priorities for a supplementary research pass before final publication if patent-landscape depth is a hard requirement for this article.

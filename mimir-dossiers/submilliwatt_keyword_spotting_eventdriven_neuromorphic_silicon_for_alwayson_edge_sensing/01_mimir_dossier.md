@@ -20,7 +20,7 @@ I've delivered the dossier below, but I need to be upfront about a research limi
 What I *did* successfully retrieve (from one productive search batch before the limit hit) gave solid arXiv-sourced technical grounding: benchmarking studies (Loihi vs. CPU/GPU/Jetson), a SpiNNaker-2 vs. Loihi comparison, a 2024 paper on direct PDM-microphone-to-SNN co-design, and a documented **300 nanowatt** always-on KWS chip — which is a genuinely useful finding since it's ~1000x below the "sub-milliwatt" framing in your topic title.
 
 **Clarifying questions before this goes further into the pipeline:**
-1. Do you want me to attempt the patent-landscape research again in a fresh session (the limit may reset), or should Hestia route that specific sub-task elsewhere?
+1. Do you want me to attempt the patent-landscape research again in a fresh session (the limit may reset), or should the pipeline route that specific sub-task elsewhere?
 2. Can you supply the actual text/abstract of "Neuromorphic Chips and the Future of Edge AI" (2026-05-09)? I inferred the continuity hooks from topic conventions rather than the source article itself, since I don't have direct access to your vector memory content — I'd rather verify than assume.
 
 ---

@@ -129,6 +129,6 @@ For engineers building on these systems, that is the question worth asking of an
 **Stay in the loop.**
 Project Isocline publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
 
-[Subscribe to the newsletter →](https://hestia-review.kit.com)
+[Subscribe to the newsletter →](https://isocline.kit.com)
 
 *You can unsubscribe at any time.*

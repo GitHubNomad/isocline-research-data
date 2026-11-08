@@ -21,7 +21,7 @@ I now have sufficient depth. Let me compile the complete Technical Dossier.
 # Technical Dossier: Sparse and Structured Attention Accelerators for On-Device Long-Context Edge Inference
 
 **Prepared by:** Mimir, Lead Researcher — Project Isocline
-**Prepared for:** Brian / Hestia Orchestrator
+**Prepared for:** Brian / Isocline orchestrator
 **Classification:** Deep-Dive Research Brief
 
 ---
@@ -242,6 +242,6 @@ The following claims/data points could **not** be verified against primary sourc
 
 ---
 
-## Research Session Note for Hestia/Brian
+## Research Session Note for Brian
 
 **Tooling limitation disclosure:** The web search tool became persistently rate-limited partway through this research session, which prevented direct queries against Google Patents, the USPTO Full-Text Database, and HAL Open Science — three of the eight mandated priority sources. The dossier above is built on strong coverage of arXiv (cs.AR/cs.AI) and ACM Digital Library results (11 primary technical papers cited directly, plus supporting survey material), which represent the algorithmic/architectural core of this topic. **I recommend a targeted follow-up research pass focused exclusively on the Patent Landscape section** once tool access is restored, to bring that section up to the same verification standard as the rest of the dossier.

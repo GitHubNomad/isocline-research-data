@@ -1,6 +1,6 @@
 # Technical Dossier: Electromigration in Bumpless Copper Hybrid Bonds at 1 Micron Pad Pitch
 
-**Prepared for:** Project Isocline / Hestia Orchestrator
+**Prepared for:** Project Isocline
 **Classification:** Deep-dive technical research — advanced packaging / 3D heterogeneous integration
 
 ---

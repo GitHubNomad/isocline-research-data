@@ -38,11 +38,11 @@ The conceptual starting point is Dijkstra's well-known observation: testing can 
 
 That guarantee is extraordinarily valuable and extraordinarily expensive. The field has fragmented into several methodologies, each occupying a different point on the cost/assurance curve:
 
-- **Theorem proving** uses interactive **proof assistants** — [Coq Proof Assistant Book](https://www.amazon.com/s?k=Coq%20proof%20assistant%20book&tag=hestiareview-20), Isabelle/HOL, Lean, and ACL2 — in which a human guides the construction of a machine-checked proof. This is the most expressive and the most labor-intensive approach. It can prove almost anything; it just costs almost everything.
+- **Theorem proving** uses interactive **proof assistants** — [Coq Proof Assistant Book](https://www.amazon.com/s?k=Coq%20proof%20assistant%20book&tag=isocline-20), Isabelle/HOL, Lean, and ACL2 — in which a human guides the construction of a machine-checked proof. This is the most expressive and the most labor-intensive approach. It can prove almost anything; it just costs almost everything.
 
 - **Model checking** (TLA+, SPIN, NuSMV) automatically explores a system's reachable state space to check whether properties hold. It is particularly strong for concurrency and protocol design, where bugs live in unexpected interleavings of events. It trades some expressiveness for a high degree of automation.
 
-- **SMT-based and deductive verification** ([Deductive Program Verification Book](https://www.amazon.com/s?k=Deductive%20program%20verification%20book&tag=hestiareview-20)) sits in between. Engineers annotate code with specifications, and the tooling discharges the resulting proof obligations to automated solvers such as Z3. It is less manual than theorem proving and more targeted than whole-system model checking.
+- **SMT-based and deductive verification** ([Deductive Program Verification Book](https://www.amazon.com/s?k=Deductive%20program%20verification%20book&tag=isocline-20)) sits in between. Engineers annotate code with specifications, and the tooling discharges the resulting proof obligations to automated solvers such as Z3. It is less manual than theorem proving and more targeted than whole-system model checking.
 
 - **Lightweight and bounded methods** — symbolic execution (analyzing code over symbolic rather than concrete inputs), abstract interpretation (soundly approximating program behavior), and bounded model checking (exhaustively checking all executions up to some finite depth) — are designed to integrate into ordinary engineering workflows, including CI/CD pipelines.
 
@@ -156,8 +156,8 @@ Formal verification has never been blocked by its mathematics. It has been gated
 ---
 
 **Stay in the loop.**
-Project Hestia publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
+The Isocline Index publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
 
-[Subscribe to the newsletter →](https://hestia-review.kit.com)
+[Subscribe to the newsletter →](https://isocline.kit.com)
 
 *You can unsubscribe at any time.*

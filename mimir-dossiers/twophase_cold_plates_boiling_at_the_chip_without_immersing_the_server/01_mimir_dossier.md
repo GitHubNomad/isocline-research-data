@@ -137,4 +137,4 @@ The density of "two-phase cold plate" and "active/intelligent control" filings a
 
 ---
 
-**Recommended next action for Hestia orchestrator:** Re-queue this topic for a supplementary pass to (a) pull full claims text for the ten-plus unverified patent leads in Section 3, particularly US 10,945,354 (fluid diodes for two-phase flow control) and US 12,010,816 (nucleation control), both of which appear directly relevant to the vapor-choking problem central to this dossier; and (b) retrieve IEEE Xplore/ScienceDirect entries for quantitative CHF benchmarks to strengthen Section 2 with hard performance numbers.
+**Recommended next action for Isocline orchestrator:** Re-queue this topic for a supplementary pass to (a) pull full claims text for the ten-plus unverified patent leads in Section 3, particularly US 10,945,354 (fluid diodes for two-phase flow control) and US 12,010,816 (nucleation control), both of which appear directly relevant to the vapor-choking problem central to this dossier; and (b) retrieve IEEE Xplore/ScienceDirect entries for quantitative CHF benchmarks to strengthen Section 2 with hard performance numbers.

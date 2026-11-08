@@ -201,6 +201,6 @@ For transparency and to comply with the Zero Hallucination Policy, the following
 
 ---
 
-### Editorial Note to Brian / Hestia Orchestrator
+### Editorial Note to Brian / Isocline orchestrator
 
 This dossier is built on 9 completed search queries yielding ~50 distinct sources before the session's search-tool budget was exhausted. Two research gaps remain open — **(a)** direct patent-database verification and **(b)** confirmation of Liquid AI's commercial LFM specifications. I recommend a short follow-up research pass focused exclusively on those two gaps before final publication, particularly if the article's "Patent Landscape" section is expected to carry specific claim numbers for the Argus scoring model.

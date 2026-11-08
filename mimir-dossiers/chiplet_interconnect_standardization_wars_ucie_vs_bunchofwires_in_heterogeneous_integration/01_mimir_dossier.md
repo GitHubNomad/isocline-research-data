@@ -192,6 +192,6 @@ Per the Zero Hallucination Policy, the following are explicitly NOT confirmed by
 
 ---
 
-### Researcher's Note to Hestia/Brian
+### Researcher's Note to Brian
 
 I want to flag transparently: the mandatory-source checklist (arXiv, Google Patents, USPTO, IEEE Xplore, ACM DL, IETF RFCs, HAL) was only partially completed. I successfully pulled from **IEEE Xplore, ACM Digital Library, and arXiv** (Sections 1–2 above draw on real citations from these). I was **not able to reach Google Patents, USPTO, IETF RFCs, or HAL** before the search tool's usage limit was hit. Given the strategic rule against hallucinated sourcing, I've chosen to deliver a dossier with a genuinely empty, clearly-flagged Patent Landscape section rather than invent plausible-sounding patent numbers. I'd recommend either (a) a short follow-up research pass focused exclusively on the patent landscape once tool access resets, or (b) proceeding to draft with this dossier as-is and adding a patent-landscape sidebar in a follow-up post, per the Continuity Hooks in Section 5.
