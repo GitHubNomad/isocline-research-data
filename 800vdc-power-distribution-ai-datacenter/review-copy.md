@@ -30,7 +30,7 @@ For a decade, the 48V/54V DC rack was the quiet workhorse of dense computing. It
 
 The forcing function is the AI rack. As single racks climb past 200 kilowatts toward 1 megawatt, the current needed to feed them at 54V becomes physically unmanageable. The copper gets too thick. The busbars get too heavy. And the in-rack conversion hardware swells until there's no room left for the one thing the rack exists to hold: compute. The industry's answer is to raise the voltage and collapse the current. The convergence point is 800VDC — or, as we'll see, something more subtle than that headline suggests.
 
-This article makes one argument that most coverage skips: the "800VDC" now entering reference designs is, in most cases, a **bipolar ±400V bus**. That's not pedantry. It's the central engineering decision that makes the whole transition tractable, because it keeps component insulation in the mature 400V class while delivering 800V rail-to-rail. Everything else — the conversion-stage collapse, the [solid-state transformer](https://www.amazon.com/s?k=solid-state%20transformer&tag=hestiareview-20), the power-and-cooling sidecar — follows from that choice.
+This article makes one argument that most coverage skips: the "800VDC" now entering reference designs is, in most cases, a **bipolar ±400V bus**. That's not pedantry. It's the central engineering decision that makes the whole transition tractable, because it keeps component insulation in the mature 400V class while delivering 800V rail-to-rail. Everything else — the conversion-stage collapse, the [solid-state transformer](https://www.amazon.com/s?k=solid-state%20transformer&tag=isocline-20), the power-and-cooling sidecar — follows from that choice.
 
 ---
 
@@ -40,7 +40,7 @@ Start with the failure mode, because it's concrete and spatial.
 
 Today's AI racks rely on 54VDC distribution, with copper busbars shuttling power from rack-mounted shelves to compute trays. This works at kilowatt scale. It doesn't work at megawatt scale, and the reason is current. Power is the product of voltage and current. Hold the voltage at 54V while pushing power toward a megawatt, and the current rises to levels that demand impractical amounts of copper and impractical volumes of conversion hardware.
 
-The clearest illustration comes from [NVIDIA Kyber platform](https://www.amazon.com/s?k=NVIDIA%20Kyber%20platform&tag=hestiareview-20). Feeding Kyber at megawatt scale through the same 54VDC distribution would require power shelves consuming **up to 64U of rack space** — leaving, in effect, no room for compute. A rack is a finite volume. If the power plumbing eats 64U, the rack has defeated its own purpose.
+The clearest illustration comes from [NVIDIA Kyber platform](https://www.amazon.com/s?k=NVIDIA%20Kyber%20platform&tag=isocline-20). Feeding Kyber at megawatt scale through the same 54VDC distribution would require power shelves consuming **up to 64U of rack space** — leaving, in effect, no room for compute. A rack is a finite volume. If the power plumbing eats 64U, the rack has defeated its own purpose.
 
 That's why the transition is best understood as a physics constraint, not a vendor preference. As Schneider Electric and others have put it plainly: at megawatt scale, 800VDC becomes necessary for single IT racks in the 400kW-to-1MW range. The voltage increase is the lever that brings current — and therefore copper, cable bulk, and conversion volume — back into a manageable envelope.
 
@@ -54,7 +54,7 @@ The scale pressure behind this isn't speculative. Global data center power deman
 
 Here's the point most existing coverage — vendor blogs, press releases, industry surveys — glosses over: when the specifications say "800VDC," they usually mean a **bipolar ±400V bus**.
 
-The [OCP Diablo 400 specification](https://www.amazon.com/s?k=OCP%20Diablo%20400%20specification&tag=hestiareview-20) defines the building block precisely. The power shelf takes 3-phase AC input and produces **±400VDC output**. There's a design option in which the rectifier shelf output is connected as two wires to present 800VDC, with the requirement that 800VDC and Return be safety-isolated from protective-earth ground.
+The [OCP Diablo 400 specification](https://www.amazon.com/s?k=OCP%20Diablo%20400%20specification&tag=isocline-20) defines the building block precisely. The power shelf takes 3-phase AC input and produces **±400VDC output**. There's a design option in which the rectifier shelf output is connected as two wires to present 800VDC, with the requirement that 800VDC and Return be safety-isolated from protective-earth ground.
 
 Why does this matter? Because a bipolar ±400V architecture delivers the full 800V potential difference rail-to-rail while keeping each rail's insulation and component stress in the **400V class** — a voltage class for which semiconductors, connectors, and insulation systems are already mature and well-characterized. You get the current-reduction benefit of 800V without immediately paying the full engineering and qualification cost of a native 800V monopolar bus.
 
@@ -157,8 +157,8 @@ The headline efficiency and TCO figures stay vendor projections until the 2027 h
 ---
 
 **Stay in the loop.**
-Project Hestia publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
+The Isocline Index publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
 
-[Subscribe to the newsletter →](https://hestia-review.kit.com)
+[Subscribe to the newsletter →](https://isocline.kit.com)
 
 *You can unsubscribe at any time.*

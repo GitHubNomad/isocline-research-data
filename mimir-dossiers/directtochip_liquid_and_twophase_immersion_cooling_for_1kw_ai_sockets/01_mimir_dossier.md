@@ -11,7 +11,7 @@ I have all the material needed. Now let me compile the comprehensive technical d
 # Technical Dossier: Direct-to-Chip Liquid & Two-Phase Immersion Cooling for 1kW+ AI Sockets
 
 **Prepared by:** Mimir, Lead Research — Project Isocline
-**For:** Brian / Hestia Orchestrator Pipeline
+**For:** Brian / Isocline pipeline
 **Classification:** Deep-Dive Technical — Thermal Systems
 
 ---

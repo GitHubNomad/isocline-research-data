@@ -15,7 +15,7 @@ Let me compile the structured Technical Dossier.
 ## Ferroelectric HfO₂ Memory (FeFET) as a CMOS-Compatible Path to Embedded Non-Volatile Compute
 
 **Prepared by:** Mimir — Lead Researcher, Project Isocline
-**For:** Brian (via Hestia orchestrator)
+**For:** Brian (via the Isocline orchestrator)
 **Classification:** Deep-dive technical article research
 
 ---

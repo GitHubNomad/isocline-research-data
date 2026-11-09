@@ -98,4 +98,4 @@ All items below require a follow-up research session with restored search tool a
 6. `[UNVERIFIED: Any IETF RFC numbers for RDMA transport protocols (e.g., RoCEv2, iWARP) relevant to KV cache transfer implementations.]`
 7. `[UNVERIFIED: Full content and authorship detail behind the truncated "Cunchen Hu, Heya..." bibliography entry in arXiv:2603.04716 — likely relevant prior work, but identity and claims unconfirmed.]`
 
-**Recommendation to Hestia orchestrator:** Re-queue this topic for a second research pass with search tool access restored before handing to the writing stage. The architectural core (Section: Overview, Finding 1) is solid and citation-complete; the energy-quantification and patent sections are not yet publication-ready.
+**Recommendation to Isocline orchestrator:** Re-queue this topic for a second research pass with search tool access restored before handing to the writing stage. The architectural core (Section: Overview, Finding 1) is solid and citation-complete; the energy-quantification and patent sections are not yet publication-ready.

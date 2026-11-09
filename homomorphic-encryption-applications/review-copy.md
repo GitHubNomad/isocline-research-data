@@ -28,7 +28,7 @@ suggestedInternalLinks: ["/post-quantum-cryptography", "/confidential-computing"
 
 Homomorphic Encryption (HE) lets you compute on data you cannot see. A cloud provider, an analytics vendor, or any untrusted third party can run operations directly on ciphertext and hand you back an encrypted result that — once you decrypt it — matches what you would have gotten by computing on the plaintext yourself. The strategic promise is clean: outsource computation without ever surrendering the data.
 
-That promise has a famous origin story. In 2009, [Craig Gentry's work on homomorphic encryption](https://www.amazon.com/s?k=Craig%20Gentry%20homomorphic%20encryption&tag=hestiareview-20) on *Fully Homomorphic Encryption* — encryption that supports arbitrary computation on ciphertext — built on ideal lattices and introduced a step called *bootstrapping*. The math, in other words, has been settled for over a decade.
+That promise has a famous origin story. In 2009, [Craig Gentry's work on homomorphic encryption](https://www.amazon.com/s?k=Craig%20Gentry%20homomorphic%20encryption&tag=isocline-20) on *Fully Homomorphic Encryption* — encryption that supports arbitrary computation on ciphertext — built on ideal lattices and introduced a step called *bootstrapping*. The math, in other words, has been settled for over a decade.
 
 The honest headline of this article is narrower than the marketing: **FHE is real, the math works, and it is in limited production — but performance overhead remains the central, defining constraint.** "Where it actually works today" is governed less by cryptography than by hardware. Gentry solved the math problem in 2009. What remains is an engineering problem, and the next phase of specialized accelerator development is the variable that determines where the boundary of "works today" moves next.
 
@@ -58,7 +58,7 @@ There is no single thing called "FHE." Modern deployable HE rests on a handful o
 
 **CKKS (Cheon–Kim–Kim–Song)** supports *approximate* arithmetic over real and complex numbers. That word "approximate" is the whole point: CKKS deliberately tolerates small numerical error in exchange for efficiency, which makes it the natural fit for privacy-preserving machine learning, where models already tolerate approximation throughout the pipeline.
 
-**[TFHE encryption](https://www.amazon.com/s?k=TFHE%20homomorphic%20encryption&tag=hestiareview-20)** specializes in very fast bootstrapping at the level of Boolean gates. Where other schemes try to amortize bootstrapping across large batched computations, TFHE makes per-gate refresh cheap enough to support arbitrary-depth circuits with low latency — which makes it the scheme of choice for arbitrary logic and comparisons.
+**[TFHE encryption](https://www.amazon.com/s?k=TFHE%20homomorphic%20encryption&tag=isocline-20)** specializes in very fast bootstrapping at the level of Boolean gates. Where other schemes try to amortize bootstrapping across large batched computations, TFHE makes per-gate refresh cheap enough to support arbitrary-depth circuits with low latency — which makes it the scheme of choice for arbitrary logic and comparisons.
 
 The decision framework, then, is unusually crisp:
 
@@ -157,8 +157,8 @@ The interesting frontier is not another cryptographic breakthrough. It is whethe
 ---
 
 **Stay in the loop.**  
-Project Hestia publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
+The Isocline Index publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
 
-[Subscribe to the newsletter →](https://hestia-review.kit.com)
+[Subscribe to the newsletter →](https://isocline.kit.com)
 
 *You can unsubscribe at any time.*

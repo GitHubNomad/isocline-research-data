@@ -238,7 +238,7 @@ assuming ∼0.2 μW of power consumption per qubit channel, it would be possible
 
 ## 5. Continuity Hooks
 
-For Hestia/editorial planning, this article connects naturally to:
+For Isocline editorial planning, this article connects naturally to:
 
 - **Prior/adjacent article candidate: "Dilution Refrigerators and the Physical Limits of Quantum Data Centers"** — the cooling-power ceiling (mW-scale budgets at 4K, μW-scale at mK) referenced throughout Section 2 is the direct physical constraint that any cryo-CMOS article should link back to for readers unfamiliar with dilution refrigerator staging.
 - **Future article candidate: "Quantum Error Correction and the Real Cost of QLDPC Codes"** — IBM's coupler-scaling point (Section 2.3) is a strong hook into a deeper QEC-overhead piece; it reframes "qubit count" roadmaps in terms of actual control-channel requirements.
@@ -261,7 +261,7 @@ The following claims appeared in secondary sources but could **not** be independ
 ---
 
 *End of dossier. Recommend a follow-up research pass targeting: (1) Intel/Google primary patent filings by number, (2) HAL Open Science and IETF datatracker direct queries, (3) full claims text of the charge-locking patent family, before this dossier is finalized for long-form publication.*
-I've delivered the full dossier above in the response. Let me also save it to a file for Brian/Hestia's pipeline use.
+I've delivered the full dossier above in the response. Let me also save it to a file for Brian/the Isocline pipeline's use.
 The dossier has been saved. Let me confirm the file and offer it to the user.
 The full Technical Dossier is presented above and has also been exported as a Markdown file (`Cryogenic_CMOS_Control_Electronics_Dossier.md`) for the Isocline pipeline.
 

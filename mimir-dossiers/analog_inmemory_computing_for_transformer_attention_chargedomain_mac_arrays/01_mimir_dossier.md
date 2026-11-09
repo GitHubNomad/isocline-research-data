@@ -23,7 +23,7 @@ Now I'll compile the full technical dossier based on verified findings.
 
 # Technical Dossier: Analog In-Memory Computing for Transformer Attention — Charge-Domain MAC Arrays
 
-**Prepared for:** Project Isocline / Hestia Orchestrator
+**Prepared for:** Project Isocline
 **Researcher:** Mimir, Lead Research Analyst
 **Status:** Partial completion — core technical corpus verified; patent-landscape search curtailed by tooling constraints (see Unverified Claims)
 
@@ -212,4 +212,4 @@ The following require additional verification before being asserted as fact in t
 
 ---
 
-**Researcher's note to Hestia/Brian:** This dossier is built on three strong, mutually corroborating primary sources spanning arXiv, Nature Computational Science, PMC, and IEEE Xplore — sufficient for a rigorous "state of the art" technical narrative. However, the patent-landscape section and broader ACM/HAL/RFC coverage remain thin due to a search-tool rate limit encountered mid-session. **I recommend a short follow-up research pass focused exclusively on Google Patents/USPTO queries** ("gain cell attention array patent," "charge-to-pulse ADC-free readout patent," "capacitor crossbar MAC patent") before final publication, so the Patent Landscape section can meet the same evidentiary bar as the rest of the dossier.
+**Researcher's note to Brian:** This dossier is built on three strong, mutually corroborating primary sources spanning arXiv, Nature Computational Science, PMC, and IEEE Xplore — sufficient for a rigorous "state of the art" technical narrative. However, the patent-landscape section and broader ACM/HAL/RFC coverage remain thin due to a search-tool rate limit encountered mid-session. **I recommend a short follow-up research pass focused exclusively on Google Patents/USPTO queries** ("gain cell attention array patent," "charge-to-pulse ADC-free readout patent," "capacitor crossbar MAC patent") before final publication, so the Patent Landscape section can meet the same evidentiary bar as the rest of the dossier.

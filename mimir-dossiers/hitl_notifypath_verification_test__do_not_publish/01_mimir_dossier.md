@@ -8,7 +8,7 @@ Reading this plainly:
 - **"Notify-Path Verification Test"** reads like the name of an internal system/pipeline test, not a technology trend.
 - **"DO NOT PUBLISH"** is an explicit instruction that this is not intended to become an article.
 
-Put together, this looks like a **test payload sent through the Hestia orchestrator to verify that the notification path to a human (Brian) is working** — i.e., checking that the human-in-the-loop review step actually triggers a human touchpoint. It does not read like a genuine tech topic ("TRISO fuel," "HTR-PM reactors," "5G network slicing," etc. would be genuine topics).
+Put together, this looks like a **test payload sent through the Isocline orchestrator to verify that the notification path to a human (Brian) is working** — i.e., checking that the human-in-the-loop review step actually triggers a human touchpoint. It does not read like a genuine tech topic ("TRISO fuel," "HTR-PM reactors," "5G network slicing," etc. would be genuine topics).
 
 Because of that, running an exhaustive arXiv/USPTO/IEEE research pass would mean **fabricating a dossier about a subject that doesn't exist** — which directly violates my Zero Hallucination Policy and Zero-Fabrication standard. I won't manufacture findings for a placeholder string.
 

@@ -25,7 +25,7 @@ This piece builds that map. We separate what's been demonstrated in peer-reviewe
 
 The conceptual question is old. In 1978, Rivest, Adleman, and Dertouzos asked whether you could build a "privacy homomorphism" — a way to operate on encrypted values such that the operations carried through to the underlying plaintext.
 
-The first plausible construction of a *fully* homomorphic scheme — one supporting arbitrary computation — didn't arrive until [Gentry's Thesis on Homomorphic Encryption](https://www.amazon.com/s?k=homomorphic%20encryption%20thesis&tag=hestiareview-20). Thirty-one years separated the question from the answer, which tells you something about its difficulty.
+The first plausible construction of a *fully* homomorphic scheme — one supporting arbitrary computation — didn't arrive until [Gentry's Thesis on Homomorphic Encryption](https://www.amazon.com/s?k=homomorphic%20encryption%20thesis&tag=isocline-20). Thirty-one years separated the question from the answer, which tells you something about its difficulty.
 
 To understand the field, you need three terms:
 
@@ -43,13 +43,13 @@ Everything about "where HE works today" comes back to managing that noise: eithe
 
 ## The schemes that actually matter
 
-Modern practical HE is lattice-based. Most of the schemes in use rest on the hardness of **[Learning With Errors Cryptography](https://www.amazon.com/s?k=learning%20with%20errors%20cryptography&tag=hestiareview-20)** — a problem, introduced by Regev in 2005, that involves recovering a secret from noisy linear equations — or its more efficient ring variant, **Ring-LWE**, formalized by Lyubashevsky, Peikert, and Regev. The "errors" in LWE are, not coincidentally, the same noise that HE schemes must manage.
+Modern practical HE is lattice-based. Most of the schemes in use rest on the hardness of **[Learning With Errors Cryptography](https://www.amazon.com/s?k=learning%20with%20errors%20cryptography&tag=isocline-20)** — a problem, introduced by Regev in 2005, that involves recovering a secret from noisy linear equations — or its more efficient ring variant, **Ring-LWE**, formalized by Lyubashevsky, Peikert, and Regev. The "errors" in LWE are, not coincidentally, the same noise that HE schemes must manage.
 
 Four scheme families dominate practitioner work, and the critical insight is that *the scheme determines the workload fit*. Choosing HE is really choosing a scheme, and choosing a scheme is choosing what kind of computation you can afford to run.
 
 **BGV** (Brakerski–Gentry–Vaikuntanathan) and **BFV** (Brakerski / Fan–Vercauteren) both handle exact integer and modular arithmetic. BGV introduced *leveled* FHE — the idea that if you know your circuit depth in advance, you can pick parameters that let you evaluate the whole circuit without bootstrapping at all. **Leveled FHE** trades generality for speed: it works beautifully when your computation is shallow and known ahead of time, and not at all when it isn't.
 
-**CKKS** (Cheon–Kim–Kim–Song, 2017) is the scheme that made [Privacy-Preserving Machine Learning Resources](https://www.amazon.com/s?k=privacy%20preserving%20machine%20learning&tag=hestiareview-20) plausible. Its defining feature is **approximate** arithmetic over real and complex numbers — it treats encrypted values the way floating point treats real numbers, accepting small rounding errors in exchange for efficiency. This sounds like a liability until you remember that machine learning is *already* approximate. A neural network does not care about the thousandth decimal place of an activation, which is precisely why CKKS fits ML inference.
+**CKKS** (Cheon–Kim–Kim–Song, 2017) is the scheme that made [Privacy-Preserving Machine Learning Resources](https://www.amazon.com/s?k=privacy%20preserving%20machine%20learning&tag=isocline-20) plausible. Its defining feature is **approximate** arithmetic over real and complex numbers — it treats encrypted values the way floating point treats real numbers, accepting small rounding errors in exchange for efficiency. This sounds like a liability until you remember that machine learning is *already* approximate. A neural network does not care about the thousandth decimal place of an activation, which is precisely why CKKS fits ML inference.
 
 **TFHE** (Chillotti–Gama–Georgieva–Izabachène) and its predecessor **FHEW** (Ducas–Micciancio) took the opposite design path. Rather than avoiding bootstrapping, they made it fast — bootstrapping over Boolean circuits in the order of milliseconds rather than minutes. This makes TFHE the scheme of choice for arbitrary Boolean logic, comparisons, and branching — the operations that BGV/BFV and CKKS handle awkwardly or not at all.
 
@@ -159,8 +159,8 @@ That gap between "demonstrated in a benchmark" and "running in production" is wh
 ---
 
 **Stay in the loop.**
-Project Hestia publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
+The Isocline Index publishes deep-dive technical analysis on AI infrastructure, energy systems, and the engineering decisions shaping the next decade of compute. No noise. No fluff.
 
-[Subscribe on Beehiiv →](https://hestia-review.kit.com)
+[Subscribe to the newsletter →](https://isocline.kit.com)
 
 *You can unsubscribe at any time.*
